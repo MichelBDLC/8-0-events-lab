@@ -7,3 +7,11 @@ for (let i = 0; i < 100; i++) {
 }
 
 // You may write your code here!
+
+const palettes = document.querySelectorAll("palette");
+for (let palette of palettes) {
+  palette.addEventListener("click", () => {
+    const currentColor = querySelector("current-color");
+    currentColor == palette 
+  })
+}
